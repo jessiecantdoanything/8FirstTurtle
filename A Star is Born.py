@@ -1,9 +1,12 @@
 import turtle
 turtle.shape("turtle")
-turtle.color("thistle")
-turtle.speed(.5)
+turtle.color("Slate Gray")
 
-def starspiral():
+
+def star():
     for i in range(5):
-        starspiral.right(144)
-        starspiral.
+        turtle.forward(100)
+        turtle.right(144)
+star()
+
+turtle.exitonclick()
