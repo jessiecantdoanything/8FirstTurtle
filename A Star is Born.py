@@ -17,4 +17,5 @@ def starSpiral():
 
 
 starSpiral()
-turtle.exitonclick()
+
+
