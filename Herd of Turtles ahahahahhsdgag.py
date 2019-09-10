@@ -22,6 +22,7 @@ gary.goto(0, -200)
 gary.pendown()
 gary.circle(200)
 gary.end_fill()
+jkd
 
 chris.forward(13)
 
