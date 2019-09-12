@@ -8,7 +8,7 @@ eliza = turtle.Turtle()
 gary.begin_fill()
 
 
-gary.speed(11)
+
 gary.shape("turtle")
 gary.color("Gold")
 chris.shape("square")
@@ -30,30 +30,29 @@ gary.end_fill()
 
 chris.penup()
 chris.left(40)
-chris.forward(25)
+chris.forward(35)
 chris.left(5)
 chris.forward(5)
 chris.pendown()
-
-chris.forward(31)
+chris.forward(40)
 chris.right(45)
 chris.shape("circle")
-chris.shapesize(4,3,1)
+chris.pendown()
+chris.shapesize(3,2,1)
 chris.fillcolor("black")
 
 jr.penup()
-jr.right(50)
-jr.backward(40)
-jr.right(5)
-jr.backward(40)
+jr.goto(-47, 53)
 jr.pendown()
-
-
-jr.forward(31)
-jr.left(45)
 jr.shape("circle")
-jr.shapesize(4,3,1)
+jr.shapesize(3,2,1)
 jr.fillcolor("black")
+
+eliza.right(90)
+eliza.forward(90)
+
+
+
 
 
 
